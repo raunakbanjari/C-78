@@ -1,0 +1,174 @@
+<html>
+    <head>
+<title>
+    TEST
+</title>
+
+    </head>
+    <body>
+        <h1>
+            HI MY NAME IS RAUNAK
+        </h1>
+         <p>
+             Declaration of arrays
+             <h4 id="Declaration of arrays"> </h4>
+         </p>
+         <hr>
+         <p>
+            first element of array
+            <h4 id="first_element_of_array"> </h4>
+        </p>
+        <hr>
+        <p>
+            second element of array
+            <h4 id="second_element_of_array"> </h4>
+        </p>
+        <hr>
+        <p>
+            third element of array
+            <h4 id="third_element_of_array"> </h4>
+        </p>
+        <hr>
+        <p>
+              Length of the array    
+            <h4 id="length_of_array"> </h4>
+        </p>
+        <hr>
+        <p>
+            add element at the end of the array    
+          <h4 id="add_element_at_the_end_of_the_array"> </h4>
+      </p>
+      <hr>
+      <p>
+        alphabets array 
+      <h4 id="alphabets_array"> </h4>
+  </p>
+  <hr>
+  <p>
+    sort array
+  <h4 id="sort_array"> </h4>
+</p>
+<hr>
+<p>
+            add element at the top of the array    
+          <h4 id="add_element_at_the_top_of_the_array"> </h4>
+      </p>
+      <hr>
+      <p>
+        sort after array    
+      <h4 id="sort_after_array"> </h4>
+  </p>
+  <hr>
+  <p>
+    reverse an array    
+  <h4 id="reverse_an_array"> </h4>
+</p>
+<hr>
+<p>
+    number array   
+  <h4 id="number_array"> </h4>
+</p>
+<hr>
+<p>
+    max number of the array   
+  <h4 id="max_number_array"> </h4>
+</p>
+<hr>
+<p>
+    min number of the array   
+  <h4 id="min_number_array"> </h4>
+</p>
+<hr>
+<p>
+   colors array  
+  <h4 id="color_array"> </h4>
+</p>
+<hr>
+<p>
+    merge arrays 
+   <h4 id="merge_array"> </h4>
+ </p>
+ <hr>
+        
+
+    </body>
+    <script>
+        console.log("its a console screen");
+        var first_name= "RAUNAK"
+        var last_name= "BANJARI"
+        console.log(first_name)
+        console.log(last_name)
+        var full_name= first_name.concat(last_name)
+        console.log(full_name)
+        var len_full_name= full_name.length
+        console.log(len_full_name)
+        var replace_name= full_name.replace("RAUNAK", "TANMAY")
+        console.log(replace_name)
+        var lower_case= first_name.toLowerCase()
+        console.log(lower_case)
+    var lower= "raunak"
+    var upper= lower.toUpperCase()
+    console.log(upper)
+    var square_root= Math.sqrt(81)
+    console.log(square_root)
+    var max_no= Math.max(8,9,2,5)
+    console.log(max_no)
+    var min_no= Math.min(8,9,2,5)
+    console.log(min_no)
+    var math_power= Math.pow(2,3)
+    console.log(math_power)
+    var big_num= 2.31428
+    console.log(big_num)
+var to_fix= big_num.toFixed(2)
+console.log(to_fix)
+var fruits= ["Banana" , "apple" , "guava"]
+console.log(fruits)
+document.getElementById("Declaration of arrays").innerHTML= fruits
+var first_element_of_array= fruits[0]
+console.log(fruits[0])
+document.getElementById("first_element_of_array").innerHTML= first_element_of_array
+var second_element_of_array= fruits[1]
+console.log(fruits[1])
+document.getElementById("second_element_of_array").innerHTML= second_element_of_array
+var third_element_of_array= fruits[2]
+console.log(fruits[2])
+document.getElementById("third_element_of_array").innerHTML= third_element_of_array
+var length_of_array= fruits.length
+console.log(length_of_array)
+document.getElementById("length_of_array").innerHTML= length_of_array
+fruits.push("watermelon")
+console.log(fruits)
+document.getElementById("add_element_at_the_end_of_the_array").innerHTML= fruits
+var alphabets=["W","Q","H","J","A","b" , "c","d"]
+console.log(alphabets)
+document.getElementById("alphabets_array").innerHTML=alphabets
+alphabets.sort()
+console.log(alphabets)
+document.getElementById("sort_array").innerHTML= alphabets
+alphabets.unshift("K")
+console.log(alphabets)
+document.getElementById("add_element_at_the_top_of_the_array").innerHTML= alphabets
+alphabets.sort()
+console.log(alphabets)
+document.getElementById("sort_after_array").innerHTML= alphabets
+alphabets.reverse()
+console.log(alphabets)
+document.getElementById("reverse_an_array").innerHTML= alphabets
+var numbers= ["1", "2", "9","8" ,"5","7"]
+console.log(numbers)
+document.getElementById("number_array").innerHTML= numbers
+var max_number_array= Math.max.apply(Math,numbers)
+console.log(max_number_array)
+document.getElementById("max_number_array").innerHTML= max_number_array
+var min_number_array= Math.min.apply(Math,numbers)
+console.log(min_number_array)
+document.getElementById("min_number_array").innerHTML= min_number_array
+var color_array= ["yellow", "red", "green", "dark green"]
+console.log(color_array)
+document.getElementById("color_array").innerHTML= color_array
+var combined_array= fruits.concat(color_array)
+console.log(combined_array)
+document.getElementById("merge_array").innerHTML= combined_array
+    </script>
+
+</html>
